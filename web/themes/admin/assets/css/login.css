@@ -1,0 +1,29 @@
+/* # Login page
+================================================== */
+.loginWrapper .nNote{
+    margin: -40px 0 0;
+}
+.loginWrapper { width: 235px;height:150px; position: absolute; left: 50%; top: 50%; margin: -124px 0 0 -120px; text-align: center; -moz-perspective: 800px; -webkit-perspective: 800px; perspective: 800px; }
+.loginLanguage{
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+.loginLanguage span.lb{
+    margin-right: 10px;
+    position: relative;
+    top: -10px;
+}
+.selector{
+    float:right;
+    margin: 20px;
+}
+.loginWrapper a { display: inline-block; }
+.loginWrapper input[type=text], .loginWrapper input[type=password] { font-size: 11px; color: #858585; box-shadow: 0 0 0px 2px #ebebeb; -webkit-box-shadow: 0 0 0px 2px #ebebeb; -moz-box-shadow: 0 0 0px 2px #ebebeb; padding: 7px 27px 7px 9px; border: 1px solid #d7d7d7; width: 198px; display: inline-block; margin-top: 15px; }
+.loginUsername { background: #fbfbfb url(../images/icon-user.png) no-repeat 213px 7px; }
+.loginPassword { background: #fbfbfb url(../images/icon-lock.png) no-repeat 213px 7px; }
+.logControl { margin-top: 15px; text-align:left; }
+.logControl .memory { float: left; margin-top: 5px; }
+.logControl input[type=submit], a.submit { float: right; }
+
+
