@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eac63752b8f985ac9242174c59d778c9",
+    "hash": "4c91e381f73d6598552374178c65a482",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -298,6 +298,39 @@
                 "markdown-extra"
             ],
             "time": "2015-03-06 05:21:16"
+        },
+        {
+            "name": "cms/yii2-widget-test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cornercms/yii2-widget-test",
+                "reference": "ac1e0bfbe8a069b5b22f5f1e837ff4bc5088584d"
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "cms\\widgets\\": ""
+                }
+            },
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Panix",
+                    "email": "andrew.panix@gmail.com"
+                }
+            ],
+            "description": "demo",
+            "keywords": [
+                "extension",
+                "yii2"
+            ],
+            "time": "2015-04-25 19:43:26"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -1022,7 +1055,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "cms/yii2-widget-test": 20
+    },
     "prefer-stable": false,
     "platform": {
         "php": ">=5.4.0"

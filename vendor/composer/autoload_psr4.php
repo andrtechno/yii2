@@ -16,5 +16,6 @@ return array(
     'yii\\bootstrap\\' => array($vendorDir . '/yiisoft/yii2-bootstrap'),
     'yii\\authclient\\' => array($vendorDir . '/yiisoft/yii2-authclient'),
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
+    'cms\\widgets\\' => array($vendorDir . '/cms/yii2-widget-test'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
 );

@@ -1053,5 +1053,40 @@
             "oauth",
             "yii2"
         ]
+    },
+    {
+        "name": "cms/yii2-widget-test",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cornercms/yii2-widget-test",
+            "reference": "ac1e0bfbe8a069b5b22f5f1e837ff4bc5088584d"
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "time": "2015-04-25 19:43:26",
+        "type": "yii2-extension",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "cms\\widgets\\": ""
+            }
+        },
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Panix",
+                "email": "andrew.panix@gmail.com"
+            }
+        ],
+        "description": "demo",
+        "keywords": [
+            "extension",
+            "yii2"
+        ]
     }
 ]

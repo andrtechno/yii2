@@ -75,4 +75,13 @@ return array (
       '@yii/authclient' => $vendorDir . '/yiisoft/yii2-authclient',
     ),
   ),
+  'cms/yii2-widget-test' => 
+  array (
+    'name' => 'cms/yii2-widget-test',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@cms/widgets' => $vendorDir . '/cms/yii2-widget-test',
+    ),
+  ),
 );
